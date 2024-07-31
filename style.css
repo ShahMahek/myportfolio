@@ -47,7 +47,7 @@ nav ul li a::after{
    content: '';
    width: 0;
    height: 3px;
-    background: #ff004f;
+    background: #aaf542;
     position: absolute;
     left: 0;
     bottom: -6px ;
@@ -68,7 +68,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color:  #ff004f;
+    color:  #aaf542;
 }
 /* about */
 #about{
@@ -112,7 +112,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #aaf542;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -123,11 +123,11 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+    color: #92be55;
+    font-size: 15px;
 }
 .tab-contents{
     display: none;
@@ -148,7 +148,9 @@ nav ul li a:hover::after{
 .services-list div{
     background: #262626;
     padding: 40px;
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 25px;
+    
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s , transform 0.5s;
@@ -170,7 +172,8 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #aaf542;
+    color: #080808;
     transform: translateY(-10px);
 }
 /* Portfolio*/
@@ -197,7 +200,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),#aaf542);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -218,7 +221,7 @@ nav ul li a:hover::after{
 }
 .layer a {
     margin-top: 20px;
-    color: #ff004f;
+    color: #aaf542;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -235,12 +238,13 @@ transform: scale(1.1);
 }
 .work:hover .layer{
     height: 100%;
+    
 }
 .btn{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #aaf542;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -248,7 +252,11 @@ transform: scale(1.1);
     transition:  background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #aaf542;
+    color: #080808;
+}
+.btn1{
+    display: none;
 }
 
 /*Contact*/
@@ -262,7 +270,7 @@ transform: scale(1.1);
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #aaf542;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -280,13 +288,24 @@ transform: scale(1.1);
     
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #aaf542;
     transform: translateY(-5px);
 
 }
 .btn.btn2{
     display: inline-block;
-    background:#ff004f ;
+     
+}
+.btn.btn3{
+    background-color: #aaf542;
+    display: inline-block;
+    color: #080808;
+    font-size: 16px;
+}
+.btn.btn3:hover{
+    color: white;
+    background-color: #080808;
+    border: 1px solid #aaf542;
 }
 .contact-right form{
     width: 100%;
@@ -319,7 +338,7 @@ form btn2{
 
 }
 .copyright i{
-    color: #ff004f;
+    color: #aaf542;
 }
 
 
@@ -329,21 +348,28 @@ nav .fa-solid{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/Mahek.jpg);
+        background-image: url(images/Mobile.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 1%;
+        margin-left: 0;
         font-size: 16px;
+        
+        
     }
     .header-text h1{
-        font-size: 30px;
+        margin-top: 1.5%;
+        display: block;
+        font-size: 14px;
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        
     }
     nav ul {
-        background: #ff004f;
+        background: #aaf542;
+        color: #080808;
         position: fixed;
         top: 0;
         right: -200px;
@@ -356,6 +382,10 @@ nav .fa-solid{
     nav ul li{
         display: block;
         margin: 25px;
+        
+    }
+    .colour{
+        color: #080808;
     }
     nav ul .fa-solid{
         position: absolute;
